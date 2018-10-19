@@ -12,6 +12,9 @@ Linguagens interpretadas: Javascript, Lua, Python
 Linguagens compiladas: Cobol, Fortran, Java, C# e Pascal.__
 
 2) Quais são os prós e contras entre linguagens compiladas e interpretadas?
+R:Ao se utilizar uma linguagem compilada temos um programa que executa mais rápida tendo em vista que todo o código já foi compreendido, os contras são que não e possível identificar a linha de código que está com erro.
+Ao se utilizar uma linguagem interpretada temos um programa com execução mais lento, porém temos como identificar onde o erro se encontra no código, já que uma linguagem interpretada executa linha por linha.
+
 
 3) Qual a diferença entre assembler e assembly?
 
