@@ -166,6 +166,7 @@ Lexema – É uma sequência de caracteres reconhecidos por um padrão.
 27) Explique a fase de análise léxica.
 
 28) Escreva uma expressão reguar que reconheça números ponto flutuantes: 1.2, 3, 4.50, .03, 0.000032, -0.2, +3.0014
+R:(0-9)* (.) (0-9)+
 
 29) Porque estudamos compiladores?
 
@@ -182,6 +183,9 @@ Lexema – É uma sequência de caracteres reconhecidos por um padrão.
 
 
 33) Qual a diferença entre erro de sintaxe e erro semântico?
+R:Qual a diferença entre erro de sintaxe e erro semântico?
+Um erro de sintaxe está na escrita do código, quando a pessoa escreve uma palavra errada e o compilador não a reconhece, exemplo: Parênteses que abrem, mas não são fechados; Dois números um ao lado do outro sem nenhum operador entre eles; Uma palavra-chave sendo usada numa posição inesperada.
+Um erro de semântica ocorre quando o código possui algum trecho que não faça sentido, como por exemplo: Dividir um número por uma string; Criar uma classe que herda de si mesma; Usar o operador ^ achando que é de exponenciação, mas na verdade é um ou exclusivo; Dividir zero por zero.
 
 34) Write a regexp that accepts all strings of a's and b's that do not contain the subsequence “abb”.
 __R:^(a(?!(b{2}))|b)+$
